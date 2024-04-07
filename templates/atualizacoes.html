@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto AA MJD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' href='./static/style.css'>
+	
+</head>
+<body>
+    <header>
+        <h1>Projeto AA MJD</h1>
+     
+			<a class="active" href="./apresentacao.html">Home</a>
+         	<a href="https://projeto-aa-insper.onrender.com/">Apresentação</a>
+          	<a href="https://projeto-aa-insper.onrender.com/portifolio">Portfólio</a>
+          	<a href="https://projeto-aa-insper.onrender.com/contato">Contato</a>
+        
+      </header>
+      <div class="container">
+        <h2>Agenda do Presidente Lula hoje</h2>
+        <ul>
+            {% for compromisso in compromissos %}
+            <li>
+                <strong>{{ compromisso.horario }}</strong>: {{ compromisso.titulo }} - {{ compromisso.local }} 
+                <a href="{{ compromisso.link }}">Adicionar ao Calendário</a>
+            </li>
+            {% endfor %}
+        </ul>
+     <div class="container">
+          <h2>Notícias Senado</h2>
+          <ul>
+              {% for noticia in noticias_senado %}
+              <li>
+                  <a href="{{ noticia.link_senado }}">{{ noticia.titulo_senado }}</a>
+              </li>
+              {% endfor %}
+          </ul>
+		  </div>
+      </div>
+</body>
+</html>
