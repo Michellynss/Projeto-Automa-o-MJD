@@ -42,11 +42,11 @@ def atualizacoes():
     noticias_senado = buscar_noticias_senado()
 
     if compromissos or noticias_senado:
+        enviar_email(compromissos, noticias_senado)
         return render_template('atualizacoes.html', compromissos=compromissos, noticias_senado=noticias_senado)
     else:
         return "Lula não tem compromissos hoje e não há notícias do Senado"
 
-@app.route("/email")
 def enviar_email(compromissos, noticias_senado):
     
     titulo = f"Atualizações do dia, {datetime.now().strftime('%Y-%m-%d')}"
