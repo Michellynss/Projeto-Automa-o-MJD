@@ -1,0 +1,76 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* alterado para corresponder ao corpo da página */
+  color: #333;
+  line-height: 1.6;
+}
+
+header, main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+.topnav {
+  max-width: 800px; /* ajustado para corresponder ao valor em header e main */
+  font-weight: 700;
+  display: flex; /* alterado para flex para melhorar a exibição em dispositivos móveis */
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: black;
+}
+
+.name {
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+.bio {
+  font-weight: normal; /* alterado para normal */
+}
+
+hr.solid { /* removido o espaço entre hr e .solid */
+  border-top: 2px solid #bbb;
+  padding-bottom: 25px;
+}
+
+.melissa {
+  text-align: left;
+  border-radius: 5px;
+  max-width: 100%; /* adicionado para garantir que a imagem não ultrapasse o contêiner */
+}
+
+.about {
+  padding-top: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* alterado para corresponder ao corpo da página */
+  border-radius: 5px; /* alterado para 5px */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
