@@ -14,7 +14,6 @@ Projeto final da disciplina de Algoritmos de Automação do Master em Jornalismo
 - Primeira parte
   
 Foram colocadas online três páginas HTML do portfólio de uma das alunas do curso. Estas páginas incluem apresentação, contato e matérias publicadas.
-Nesta parte foi utilizado apenas o Flask.
 
 - Segunda parte
   
