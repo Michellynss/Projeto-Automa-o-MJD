@@ -12,8 +12,10 @@ Projeto final da disciplina de Algoritmos de Automação do Master em Jornalismo
 ## Descrição
 
 - Primeira parte
+  
 Foram colocadas online três páginas HTML do portfólio de uma das alunas do curso. Estas páginas incluem apresentação, contato e matérias publicadas.
 Nesta parte foi utilizado apenas o Flask.
 
 - Segunda parte
+  
 Foi criada uma página dinâmica que permite visualizar e enviar emails com informações sobre a agenda do presidente Lula naquele dia e notícias recentes do Senado relacionadas à internet e desinformação.
