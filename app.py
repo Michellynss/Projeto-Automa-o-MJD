@@ -29,12 +29,12 @@ def contato():
 ## Segunda parte
 
 # Credenciais email
-smtp_server = 'smtp-relay.brevo.com'
+smtp_server = senha = os.environ['smtp_server']
 port = 587
 email = os.environ['email']
 senha = os.environ['senha_email']
 remetente = os.environ['email']
-destinatarios = os.environ['email']            
+destinatarios = os.environ['destinatarios']            
 
 @app.route("/atualizacoes")
 def atualizacoes():

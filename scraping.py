@@ -33,7 +33,8 @@ def agenda_presidente_lula():
     return compromissos
 
 # Função para raspar as notícias do Senado
-## Palavras-chave das notícias
+
+## Palavras-chave dos títulos
 palavras_chave = ['internet', 'eleições', 'fake news', 'inteligência artificial', 'redes sociais', 'notícias falsas', 'desinformação', 'notícia falsa', 'checagem de fatos']
 
 
