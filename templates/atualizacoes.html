@@ -22,8 +22,7 @@
         <ul>
             {% if compromissos %}
                 {% for compromisso in compromissos %}
-                    <li><strong>{{ compromisso.horario }}</strong>: {{ compromisso.titulo }} - {{ compromisso.local }} 
-                        <a href="{{ compromisso.link }}">Adicionar ao Calendário</a>
+                    <li><strong>{{ compromisso.horario }}</strong>: {{ compromisso.descrição }} - {{ compromisso.local }} 
                     </li>
                 {% endfor %}
             {% else %}

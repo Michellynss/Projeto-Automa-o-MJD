@@ -34,7 +34,7 @@ port = 587
 email = os.environ['email']
 senha = os.environ['senha_email']
 remetente = os.environ['email']
-destinatarios = os.environ['destinatarios']            
+destinatarios = os.environ['destinatarios']       
 
 @app.route("/atualizacoes")
 def atualizacoes():
